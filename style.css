@@ -1,0 +1,68 @@
+h1{
+    color: rgb(194, 168, 24);
+    padding-left: 100px;
+}
+img{
+    width: 100px;
+    padding: left 200px ;
+
+}
+.d1{display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+body{
+    background-color: beige;
+}
+
+header {
+    background-image: url('https://img.freepik.com/premium-photo/top-view-online-shopping-concept-with-credit-card-smart-phone-computer-isolated-office-yellow-table-background_315337-3591.jpg');
+    background-size: cover; /* ou 'contain' selon votre préférence */
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 300px; /* Ajustez la hauteur comme nécessaire */
+    position: relative; /* Pour permettre le positionnement absolu du texte */
+      }
+      .overlay-text {
+        position: absolute;
+        top: 50%; /* Position verticale au centre */
+        left: 50%; /* Position horizontale au centre */
+        transform: translate(-50%, -50%); /* Centrage parfait */
+        color: white; /* Couleur du texte */
+        font-size: 24px;
+        text-align: center;
+      }
+      h2{padding: 0px 30px;
+        color: rgb(121, 102, 102);
+    }
+    span{padding:20px ;
+    color: rgb(71, 100, 14);}
+    
+     button{
+       background-color: gold;
+        color: white;
+        border: none; 
+        border-radius: 5px; 
+        cursor: pointer;
+    }
+    .n1{
+            display: flex;
+            flex-direction: column;
+           
+    }
+    .item{
+        display: flex;
+        justify-content: space-between;
+    }
+    .overlay-text p{
+        font-family: Brush Script MT, Brush Script Std, cursive	;
+        color: blanchedalmond	;
+    }
+    .overlay-text { display: flex;
+    justify-content: center;
+    flex-direction: column;}
+    .liked {
+        color: orangered;
+      }

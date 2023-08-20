@@ -1,0 +1,32 @@
+body{
+    margin: 0; 
+    padding: 0; 
+    background-image: url('https://img.freepik.com/photos-gratuite/arrangement-caddies-vendredi-noir-espace-copie_23-2148667047.jpg?w=900&t=st=1692565341~exp=1692565941~hmac=158137aab27b3abfc1184dc6b5e967ee0c7557b913f098f0aa4add04d1b3632c');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-attachment: fixed;
+}
+h1{
+    color: rgb(216, 198, 93);
+    font-family:  Brush Script MT, Brush Script Std, cursive, sans sherif;	
+    text-shadow:  -1px -1px 0 #FF0000,
+    1px -1px 0 #FF0000, 
+   -1px  1px 0 #FF0000, 
+    1px  1px 0 #FF0000;
+
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   
+}
+a {
+    text-decoration: none;
+}
+
+
